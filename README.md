@@ -1,3 +1,6 @@
+# Fork Changes
+- Added Nodejs to image 
+
 # SinusBot Docker Image
 
 > [!IMPORTANT]
