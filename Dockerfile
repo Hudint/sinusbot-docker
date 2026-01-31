@@ -6,6 +6,7 @@ LABEL version="1.1f"
 # Install dependencies and clean up afterwards
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+        nodejs \
         ca-certificates \
         bzip2 \
         unzip \
